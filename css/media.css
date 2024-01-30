@@ -1,0 +1,43 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    nav{
+        padding: 10px;
+    }
+    nav figure{
+        width: 30%;
+    }
+    .menu select{
+        margin-right: 10px;
+    }
+    .header_cont{
+        padding: 20px;
+    }
+    .header_cont h1{
+        font-size: 40px;
+    }
+    .header_cont h4{
+        font-size: 22px;
+    }
+    .header_cont h5{
+        font-size: 20px;
+    }
+    .email{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputoverlow{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inputoverlow label{
+        left: 48px;
+    }
+    .email button{
+        padding: 18px 35px;
+    }
+    .tv{
+        padding: 20px;
+    }
+    .inner_tv{
+        flex-direction: column;
+    }
+}

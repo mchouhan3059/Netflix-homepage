@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --bgc-white: #ffffff;
+    --font-white: #ffffff;
+    --border-color: #232323;
+    --bgc-black: #000;
+}
+button{
+    cursor: pointer;
+}
+.fix_space{
+    max-width: 1170px;
+    margin: auto;
+}
+header{
+    background-image: url("../Image/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_small.jpg") ;
+    background-position: center;
+    background-size: inherit;
+    border-bottom: 10px solid var(--border-color);
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>figure{
+    width: 20%;
+}
+nav>figure img{
+    width: 80%;
+}
+.menu select{
+    font-size: 18px;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--font-white) ;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.menu button{
+    padding: 5px 15px;
+    font-size: 18px;
+    color: var(--font-white) ;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+.header_cont{
+    padding-bottom: 150px;
+    margin-top: 200px;
+    text-align: center;
+    color: var(--font-white);
+}
+.header_cont h1{
+    font-size: 55px;
+}
+.header_cont h4{
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+.header_cont h5{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.email input{
+    padding: 18px 200px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    border-color: rgba(128, 128, 128, 0.7);
+    color: white;
+    width: 50%;
+    font-size: 18px;
+}
+.email button{
+    padding: 0px 35px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.tv{
+    padding: 50px 0px;
+    background-color: var(--bgc-black);
+    border-bottom: 10px solid var(--border-color);
+    color: var(--bgc-white);
+}
+.inner_tv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tv_cont{
+    flex-basis: 50%;
+}
+.tv_cont h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.tv_cont p{
+    font-size: 25px;
+}
+.inner_tv figure{
+    position: relative;
+    flex-basis: 50%;
+}
+.inner_tv figure img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.inner_tv video{
+    position: absolute;
+    width: 73%;
+    top: 20.5%;
+    left: 13%;
+}
+.watch video{
+    top: 8%;
+    width: 62%;
+    left: 19%;
+}
+
